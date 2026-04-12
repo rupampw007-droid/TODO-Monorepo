@@ -16,7 +16,7 @@ model User {
   id           String          @id    @default(uuid())
   username     String
   password     String
-  todos        Todo[]
+  todos        Todo[]         
 }
 
 model Todo {
